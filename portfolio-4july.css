@@ -1,0 +1,615 @@
+img{
+    height: 70px;
+    
+}
+li{
+    margin: 0 30px;
+    
+}
+.navbar {
+    position:fixed;
+    top: 0;
+    background-color:#E1D5C6;
+    
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+#welcome{
+    font-size: 70px;
+    text-align: center;
+    font-size: 100px;
+    font-family: caveat;
+
+}
+#hi{
+    font-size: medium;
+}
+
+.container1{
+    height: 900px;
+    background-color: #F4F3EF;
+
+}
+
+.textimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    height:350px;
+    
+  
+
+}
+
+
+
+h2{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.text{
+    height:330px;
+    width: 350px;
+    background-color: #E1D5C6;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+span{
+  
+    font-size: small;
+    font-weight: bold;
+}
+img{
+    height: 100%;
+   
+}
+
+
+.section2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #E6E6E6;
+    display:flex ;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+.container2{
+    width: 100%;
+    padding: 35px 10%;
+
+}
+main.row{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+
+}
+
+.col header.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #11a372;
+    padding: 0px 0px 20px 30px;
+}
+
+.col .contents{
+    padding: 0px 30px;
+    border-left: 2px solid #bababa;
+    
+}
+.col .contents .box{
+    position:relative ;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    cursor:pointer;
+    transition:all 0.4s;
+    margin-bottom: 20px;
+}
+.col .contents .box:hover{
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border:1px solid transparent;
+}
+.col .contents .box:before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    left:-41px;
+    top:0;
+    background-color: #11a372;
+    border: 2px solid white;
+}
+.box h5{
+    position: relative;
+    color:#11a372;
+}
+ .box h4{
+    font-size: 19px;
+    padding: 10px 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+ .box p{
+    line-height: 1.2;
+    color: #666;
+    font-size: 17px;
+}  
+
+
+/* .container3{
+    height: 700px;
+    background-color: #E1D5C6;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.skills{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 300px;
+}
+
+.father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    margin-top: -600px;
+    
+    position: relative;
+    
+}
+.brain{
+    width: 30%;
+}
+
+#UX{
+ font-size: 30px;
+ top:10px;
+ left:498px;
+ position: absolute;
+
+}
+
+#HTML5{
+ font-size: 30px;
+ top:90px;
+ left:450px;
+ position: absolute;
+
+}
+
+ #Mediaquery{
+    font-size: 30px;
+    top:210px;
+    left:365px;
+    position: absolute;
+   
+   }
+
+   #CSS3{
+    font-size: 30px;
+    top:330px;
+    left:500px;
+    position: absolute;
+    }
+
+
+    #Bootstrap{
+        font-size: 30px;
+        top:420px;
+        left:550px;
+        position: absolute;
+        }
+
+
+    #Self-Learner{
+         font-size: 30px;
+         top:420px;
+         left:900px;
+         position: absolute;
+       }
+
+    #Time-mangement{
+        font-size: 30px;
+        top:330px;
+        left:930px;
+        position: absolute;
+
+    }
+
+    #Communication{
+        font-size: 30px;
+        top:220px;
+        left:960px;
+        position: absolute;
+
+    }
+
+    #Teamwork{
+        font-size: 30px;
+        top:110px;
+        left:963px;
+        position: absolute;
+
+    }
+
+    #Critical-Thinking{
+        font-size: 30px;
+        top:10px;
+        left:940px;
+        position: absolute;
+
+    } */
+    .container3 {
+        background-color: #F4F3EF;
+        background: url(./images/brain.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        height: 400px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 40vh;
+        justify-content: space-around;
+        margin-top: 70px;
+
+       
+    }
+    .container div{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .skills{
+        color:black;
+        font-size: 25px;
+    }
+    
+
+
+    .container4{
+        height: 800px;
+        background-color: #C2C8CE;
+         display: flex;
+        flex-direction: row; 
+        position: relative;
+       
+    }
+
+    .portfolio{
+        margin-top:150px;
+        height:330px;
+        width:390px;
+
+    }
+
+
+    .paragraphcont4{
+        padding: 10px;
+        background-color: #E1D5C6;
+        height:120px;
+        width: 350px;
+        position:absolute;
+        top:500px;
+        left:270px;
+
+    }
+    .coffee-shop{
+        width:250px;
+        height: 250px;
+        position: absolute;
+        top: 50px;
+        left: 1100px;
+        z-index: 1;
+    }
+
+    .paragraph2cont4{
+        padding:10px;
+        background-color: #E1D5C6;
+        height:180px;
+        width: 500px;
+        position:absolute;
+        top:260px;
+        right:200px;
+        z-index: 2;
+        font-size: 14px;
+       
+
+    }
+
+    .road{
+        width:250px;
+        height: 200px;
+        position: absolute;
+        top:480px;
+        right:235px;
+
+    }
+
+    .paragraph3cont4{
+        padding:10px;
+        background-color: #E1D5C6;
+        height:140px;
+        width: 500px;
+        position:absolute;
+        top:600px;
+        right:300px;
+        z-index: 2;
+        font-size: 14px;
+
+    }
+
+
+    .container5{
+        position: relative;
+        height:600px;
+
+    }
+    .cource-titles{
+        font-size: large;
+        font-weight: bold;
+    }
+
+    
+    .engineer{
+        width:200px;
+        height: 100%;
+    }
+
+    .cource-date{
+        position: absolute;
+        top: 250px;
+        left: 260px;
+
+
+    }
+    .line{
+        height: 250px;
+        width: 2px;
+        background-color:black;
+        position: absolute;
+        top: 500px;
+        left: 400px;
+    
+     }
+
+
+ .paragraph4cont4{
+        position:absolute;
+        top: 200px;
+        left:440px;
+        font-size: 15px;
+
+ }
+
+    .cource-date1{
+        position: absolute;
+        top: 600px;
+        left: 260px;
+
+
+    }
+    .line2{
+        height: 300px;
+        width: 2px;
+        background-color:black;
+        position: absolute;
+        top: 140px;
+        left: 400px;
+    
+     }
+
+
+ .paragraph5cont4{
+        position:absolute;
+        top: 560px;
+        left:450px;
+        font-size: 15px;
+
+ }
+ 
+
+
+
+ .container6{
+    margin-top: 200px;
+    position: relative; 
+    height: 300px;
+    background-color: #E1D5C6;
+} 
+
+.language{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 260px;
+    padding-top: 30px;
+}
+
+.english{
+    position: absolute;
+    top: 200px;;
+    left:0;
+
+}
+
+
+.container6 .stars{
+    position: absolute;
+    font-size: 35px;
+    left: 900px;
+    top:150px;
+   
+} 
+.container6 .stars-english{
+    position: absolute;
+    font-size: 35px;
+    left: 900px;
+    top:220px;
+
+}
+
+
+
+
+.titles{
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.ruler{
+    background-color: black;
+}
+
+.container7{
+    position: relative;
+    height:500px;
+    background-color: #E1E1E1;
+
+}
+
+#coach-hala{
+    margin-left: 70px;
+    margin-top: 60px;
+    width: 300px;
+    height: 250px;
+}
+
+.hala-description{
+   margin-left: 600px;
+   position: absolute;
+   top: 200px;
+   font-size: large;
+   font-weight: bold;
+  
+  
+}
+.line3{
+    height: 300px;
+    width: 2px;
+    background-color:black;
+    position: absolute;
+    top: 140px;
+    left: 450px;
+    
+}
+
+.container8{ 
+    position: relative; 
+    height: 400px;
+    background-color: #F4F3EF;
+
+}
+
+.raghad-logo{
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+#linkedin{
+    color: #3779FF;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.readmore{
+    height: fit-content;
+    position: absolute;
+    top: 740px;
+    right: 10px;
+    background-color:#E1D5C6 ;
+    height: 50px;
+    width: 150px;
+}
+.container8 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 40vh;
+  
+ 
+}
+
+
+
+.container8 div{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   margin-top: 20px;
+
+}
+.imgend{
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 100px;
+    
+}
+.endtitles{
+    font-size: 20px;
+    font-weight: bold;
+}
+.links{
+    text-decoration: underline;
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+       
+
+
+
+
+        
+    
+
+   
+
+
+
+
+
+
+
+
+
+
